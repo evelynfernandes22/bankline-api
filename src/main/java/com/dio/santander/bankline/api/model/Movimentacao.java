@@ -11,6 +11,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.Columns;
+
 @Entity
 @Table (name = "tab_movimentacao")
 public class Movimentacao {
@@ -27,6 +29,10 @@ public class Movimentacao {
 	
 	@Enumerated(EnumType.STRING)
 	private MovimentacaoTipo tipo;
+	
+	@Column (name = "Id_conta")
+	private Integer idConta;
+	
 	
 	public Integer getId() {
 		return id;
@@ -59,6 +65,11 @@ public class Movimentacao {
 		this.tipo = tipo;
 	}
 	
-	
+	public Integer getIdConta() {
+		return idConta;
+	}
+	public void setIdConta(Integer idConta) {
+		this.idConta = idConta;
+	}
 
 }
