@@ -1,5 +1,5 @@
 # Getting Started
-DEV WEK SANTANDER - DIO
+Participação na SANTANDER DEV WEK - DIO
 ### Reference Documentation
 For further reference, please consider the following sections:
 
