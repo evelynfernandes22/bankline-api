@@ -1,6 +1,7 @@
 # Getting Started
 Participação na SANTANDER DEV WEK - DIO
-Abstraindo o domínio bancário em uma API REST usando Java e Spring Boot.
+
+# Abstraindo o domínio bancário em uma API REST usando Java e Spring Boot.
 
 ### Reference Documentation
 For further reference, please consider the following sections:
